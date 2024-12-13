@@ -9,7 +9,7 @@ public class RelAdd
 
 //maak hier public variables:
 	//1 (acces=public, Type= int, name=x)
-    public ???;
+    public int x;
 	//2 (acces=public, Type= int, name=z)
-    public ???;
+    public int z;
 }

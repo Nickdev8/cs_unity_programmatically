@@ -2,19 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
-
 public class Enemy
 {
 //maak hier public class variables:
 	//1 (acces=public, Type= GameObject, name=obj)
-    public ???;
+    public GameObject obj;
 	//2 (acces=public, Type= int, name=from)
-    public ???;
+    public int from;
 	//3 (acces=public, Type= int, name=to)
-    public ???;
+    public int to;
 
-    public Enemy(???)//verander hier iets zodat je een GameObject met de constructor kan meegeven
+    public Enemy(GameObject obj)//verander hier iets zodat je een GameObject met de constructor kan meegeven
     {
         this.obj = obj;
 		this.from=0;
